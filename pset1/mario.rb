@@ -24,6 +24,10 @@ def draw_pyramid(height)
     counter.times do
       pyramid_string += '#'
     end
+    pyramid_string += '  '
+    counter.times do
+      pyramid_string += '#'
+    end
     pyramid_string += "\n"
     counter += 1
     space_counter -= 1
